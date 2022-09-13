@@ -17,7 +17,9 @@
    "files": [
       "dist"
    ],
-   "dependencies": {},
+   "dependencies": {
+      "rxjs": "^7.5.6"
+   },
    "devDependencies": {
       "@nestjs/common": "^8.0.6",
       "@nestjs/core": "^8.0.6",
