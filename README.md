@@ -2,19 +2,7 @@
 
 🏳‍🌈 Pagination helper method for Sequelize models.
 
-<a href="https://github.com/yonycalsin/nestjs-sequelize-paginate"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
-<a href="https://www.npmjs.com/nestjs-sequelize-paginate" target="_blank">
-<img src="https://img.shields.io/npm/v/nestjs-sequelize-paginate" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/nestjs-sequelize-paginate" target="_blank">
-<img src="https://img.shields.io/npm/l/nestjs-sequelize-paginate" alt="Package License" /></a>
-<a href="https://www.npmjs.com/nestjs-sequelize-paginate" target="_blank">
-<img src="https://img.shields.io/npm/dm/nestjs-sequelize-paginate" alt="NPM Downloads" /></a>
-<a href="https://github.com/yonycalsin/nestjs-sequelize-paginate" target="_blank">
-<img src="https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_95.svg" alt="Coverage" /></a>
-<a href="https://github.com/yonycalsin/nestjs-sequelize-paginate"><img src="https://img.shields.io/badge/Github%20Page-nestjs.sequelize.paginate-yellow?style=flat-square&logo=github" /></a>
-<a href="https://github.com/yonycalsin"><img src="https://img.shields.io/badge/Author-Yoni%20Calsin-blueviolet?style=flat-square&logo=appveyor" /></a>
-<a href="https://twitter.com/yonycalsin" target="_blank">
-<img src="https://img.shields.io/twitter/follow/yonycalsin.svg?style=social&label=Follow"></a>
+
 
 ## 🌐 Description
 
@@ -28,7 +16,7 @@ You simply need to install the package !
 
 ```ts
 // We install with npm, but you could use the package manager you prefer !
-npm install -save nestjs-sequelize-paginate
+npm i @dev-talha-anwar/nestjs-sequelize-paginate
 ```
 
 ## ▶️ Getting started
