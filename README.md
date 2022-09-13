@@ -25,7 +25,7 @@ Once the installation process is complete, we can import the **PaginateModule** 
 
 ```ts
 import { Module } from '@nestjs/common'
-import { PaginateModule } from 'nestjs-sequelize-paginate'
+import { PaginateModule } from '@dev-talha-anwar/nestjs-sequelize-paginate'
 
 @Module({
   imports: [
@@ -56,7 +56,7 @@ Sequelize implements the Active Record pattern. With this pattern, you use model
 
 ```ts
 import { Injectable } from '@nestjs/common'
-import { PaginateService, PaginateOptions } from 'nestjs-sequelize-paginate'
+import { PaginateService, PaginateOptions } from '@dev-talha-anwar/nestjs-sequelize-paginate'
 import { ModelUser } from 'src/models/user.model'
 
 @Injectable()
@@ -79,7 +79,7 @@ Next, let's look at the **UserModule:**
 import { Controller, Get, Res, HttpStatus } from '@nestjs/common'
 import { UserService } from './user.service'
 import { Response } from 'express'
-import { PaginateQueryInterface, PaginateQuery } from 'nestjs-sequelize-paginate'
+import { PaginateQueryInterface, PaginateQuery } from '@dev-talha-anwar/nestjs-sequelize-paginate'
 
 @Controller('user')
 export class UserController {
@@ -109,14 +109,10 @@ This decorator returns the following to you !
 }
 ```
 
-## ⭐ Support for
-
-Sass-colors is an open source project licensed by [MIT](LICENSE). You can grow thanks to the sponsors and the support of the amazing sponsors. If you want to join them, [contact me here](https://twitter.com/yonycalsin).
-
 ## 🎩 Stay in touch
 
 - Author [Yony Calsin](https://github.com/yonycalsin)
-- Twitter [Yony Calsin](https://twitter.com/yonycalsin)
+
 
 ## 📜 License
 
