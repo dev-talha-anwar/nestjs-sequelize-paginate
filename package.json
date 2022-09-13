@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-sequelize-paginate",
+  "name": "@dev-talha-anwar/nestjs-sequelize-paginate",
   "version": "1.0.0",
   "description": "🏳‍🌈 Pagination helper method for Sequelize models.",
   "directories": {
